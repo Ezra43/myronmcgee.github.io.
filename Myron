@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myron McGee - Teacher of the Word of God</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #87cefa;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .word-of-the-day {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Myron McGee</h1>
+        <p>Teacher of the Word of God</p>
+    </header>
+    <nav>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="#word-of-the-day">Word of the Day</a>
+    </nav>
+    <div class="container">
+        <div id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Welcome to my blog where I share insights, reflections, and teachings from the Word of God. Stay tuned for my latest posts!</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>You can reach me at: <a href="mailto:myron@example.com">myron@example.com</a></p>
+        </div>
+        <div id="word-of-the-day" class="section">
+            <h2>Word of the Day</h2>
+            <p class="word-of-the-day">"Faith is the assurance of things hoped for, the conviction of things not seen." - Hebrews 11:1</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Myron McGee</p>
+    </footer>
+</body>
+</html>
